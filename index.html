@@ -12,14 +12,14 @@
 <div class="container">
 
   <!-- ================= COVER ================= -->
-  <div class="cover">
+  <div class="cover" id="cover">
     <img src="assets/images/frontpage.png" alt="UK Survival Guide Cover">
     <h1>UK Survival Guide 🇬🇧</h1>
     <p>Your friendly handbook to surviving UK adult life ☕️</p>
   </div>
 
   <!-- ================= TABLE OF CONTENTS ================= -->
-  <div class="toc-section">
+  <div class="toc-section" id="toc">
     <h2>Table of Contents</h2>
     <ol class="toc-list">
       <li><a href="about.html">About This Booklet</a></li>
@@ -29,17 +29,17 @@
       <li><a href="water.html">Water Bills</a></li>
       <li><a href="council-tax.html">Council Tax</a></li>
       <li><a href="electricity-gas.html">Electricity & Gas</a></li>
+      <li><a href="communal-heating.html">Communal Heating</a></li>
       <li><a href="nhs-ni.html">NHS Number & National Insurance Number</a></li>
 
       <!-- 👇 IN-PAGE LINKS -->
-      <li><a href="#must-not-dos">5 Must-NOT-Dos</a></li>
-      <li><a href="#must-dos">5 Must-DOs</a></li>
+      <li><a href="#must-not-dos">4 Must-NOT-Dos</a></li>
+      <li><a href="#must-dos">4 Must-DOs</a></li>
     </ol>
   </div>
 
-
   <!-- ================= SECTION 1 ================= -->
-  <div class="section">
+  <div class="section" id="about">
     <div class="text">
       <h2><a href="about.html">About This Booklet</a></h2>
 
@@ -64,10 +64,10 @@
   </div>
 
   <!-- ================= SECTION 2 ================= -->
-  <div class="section">
+  <div class="section" id="house-hunting">
     <div class="text">
       <h2><a href="housing.html">House Hunting</a></h2>
-      <h3>Finding Your Castle (or Cosy Flat)</h3>
+      <h3>Finding Your Flat</h3>
 
       <p>Whether you're after a room, a whole flat, or something in between:</p>
 
@@ -83,11 +83,11 @@
         confirm fees, and never rush because "someone else is interested".
       </p>
     </div>
-    <img src="assets/images/managebill.png" alt="Managing bills illustration">
+    <img src="assets/images/housing.png" alt="Managing bills illustration">
   </div>
 
   <!-- ================= SECTION 3 ================= -->
-  <div class="section">
+  <div class="section" id="transport-london">
     <div class="text">
       <h2><a href="transport-london.html">Transport — Getting Around London</a></h2>
 
@@ -101,8 +101,6 @@
         Absolute game-changer.
       </p>
 
-      <p><em>I've only seen a rat on the Tube twice. Relax.</em></p>
-
       <div class="callout">
         Off-peak = cheaper, quieter, happier travel.
       </div>
@@ -111,9 +109,22 @@
   </div>
 
   <!-- ================= SECTION 4 ================= -->
-  <div class="section">
+  <div class="section" id="off-peak">
     <div class="text">
-      <h2><a href="transport-uk.html">Transport — UK Cities</a></h2>
+      <h2><a>When is off-peak?</a></h2>
+
+      <p>
+        Monday to Friday: Before 6:30am, 9:30am - 4pm & After 19:00.<br>
+        All day on weekends and public holidays.
+      </p>
+    </div>
+    <img src="assets/images/offpeak.png" alt="Off-peak travel illustration">
+  </div>
+
+  <!-- ================= SECTION 5 ================= -->
+  <div class="section" id="transport-uk">
+    <div class="text">
+      <h2><a href="transport-uk.html">Transport — Travelling Between UK Cities</a></h2>
 
       <ul>
         <li><strong>Manchester - Bee Network</strong></li>
@@ -130,25 +141,8 @@
     <img src="assets/images/transport.png" alt="Transport illustration">
   </div>
 
-  <!-- ================= SECTION 5 ================= -->
-  <div class="section">
-    <div class="text">
-      <h2><a href="trains.html">Trains Between Cities</a></h2>
-
-      <p>
-        Trainline is convenient but charges a small fee.
-        If you travel often, book direct.
-      </p>
-
-      <div class="callout">
-        Train delay refunds are real. Claim them.
-      </div>
-    </div>
-    <img src="assets/images/offpeak.png" alt="Off-peak travel illustration">
-  </div>
-
   <!-- ================= SECTION 6 ================= -->
-  <div class="section">
+  <div class="section" id="coaches">
     <div class="text">
       <h2><a href="coaches.html">Coaches</a></h2>
 
@@ -163,11 +157,11 @@
         Bring snacks and download Netflix.
       </p>
     </div>
-    <img src="assets/images/transport.png" alt="Coach transport illustration">
+    <img src="assets/images/coaches.png" alt="Coach transport illustration">
   </div>
 
   <!-- ================= SECTION 7 ================= -->
-  <div class="section">
+  <div class="section" id="water-bills">
     <div class="text">
       <h2><a href="water.html">Water Bills</a></h2>
 
@@ -181,7 +175,7 @@
   </div>
 
   <!-- ================= SECTION 8 ================= -->
-  <div class="section">
+  <div class="section" id="council-tax">
     <div class="text">
       <h2><a href="council-tax.html">Council Tax</a></h2>
 
@@ -202,9 +196,9 @@
   </div>
 
   <!-- ================= SECTION 9 ================= -->
-  <div class="section">
+  <div class="section" id="electricity-gas">
     <div class="text">
-      <h2><a href="energy.html">Electricity & Gas</a></h2>
+      <h2><a href="electricity-gas.html">Electricity & Gas</a></h2>
 
       <p>
         Octopus, EDF, British Gas, OVO are common.
@@ -218,9 +212,9 @@
   </div>
 
   <!-- ================= SECTION 10 ================= -->
-  <div class="section">
+  <div class="section" id="communal-heating">
     <div class="text">
-      <h2><a href="heating.html">Communal Heating</a></h2>
+      <h2><a href="communal-heating.html">Communal Heating</a></h2>
 
       <p>
         Common in new builds and high-rise flats.
@@ -234,7 +228,7 @@
   </div>
 
   <!-- ================= SECTION 11 ================= -->
-  <div class="section">
+  <div class="section" id="nhs-ni">
     <div class="text">
       <h2><a href="nhs-ni.html">NHS & National Insurance Numbers</a></h2>
 
@@ -252,40 +246,35 @@
   <!-- ================= SECTION 12 ================= -->
   <div class="section" id="must-not-dos">
     <div class="text">
-      <h2><a href="#must-not-dos">5 Must-NOT-Dos</a></h2>
+      <h2><a href="#must-not-dos">4 Must-NOT-Dos</a></h2>
       <ul>
         <li>Ignore council tax</li>
         <li>Assume housemates sorted bills</li>
         <li>Pay bills not in your name</li>
         <li>Don't ignore final notices</li>
-        <li>Don't assume housemates sorted everything</li>
       </ul>
     </div>
     <img src="assets/images/5mustnotdo.png" alt="Must not dos illustration">
   </div>
 
-
   <!-- ================= SECTION 13 ================= -->
-
   <div class="section" id="must-dos">
     <div class="text">
-      <h2><a href="#must-dos">5 Must-DOs</a></h2>
+      <h2><a href="#must-dos">4 Must-DOs</a></h2>
       <ul>
         <li>Photograph meters</li>
         <li>Track payments</li>
         <li>Register early</li>
         <li>Keep a "Boring Adult Stuff" folder</li>
-        <li>Join local Facebook & community groups</li>
       </ul>
     </div>
     <img src="assets/images/5mustdo.png" alt="Must dos illustration">
   </div>
 
-
   <!-- ================= SECTION 14 ================= -->
-  <div class="section">
+  <div class="section" id="final-thoughts">
     <div class="text">
-      <h2><a href="final-thoughts.html">Final Thoughts</a></h2>
+      <h2><a href="final-thoughts">Final Thoughts</a></h2>
 
       <p>
         You're not bad at this — it's genuinely confusing. Everyone struggles at first (yes, even British people). Most problems can be solved with couple of calls and a bit of patience.
